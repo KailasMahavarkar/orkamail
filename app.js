@@ -17,10 +17,10 @@ app.use("/mail", mailHandler);
 app.get("/", (req, res) => {
 	res.status(200).json({
 		msg: "Welcome to the OrkaMailer",
-        
+
 	});
 });
 
-app.listen(2000, async () => {
+app.listen(process.env.PORT || 2000, async () => {
 	console.log("Server is running on port 2000");
 });
