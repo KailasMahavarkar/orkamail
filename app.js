@@ -25,8 +25,8 @@ app.listen(process.env.PORT || 2000, async () => {
 		msg: "Server is running on port 2000",
 		smtp: {
 			service: process.env.SMTP_SERVICE,
-			host: process.env.HOST,
-			port: process.env.PORT,
+			host: process.env.SMTP_HOST,
+			port: process.env.SMTP_PORT,
 			auth: {
 				user: process.env.SMTP_AUTH_USERNAME,
 			},
