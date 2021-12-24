@@ -7,8 +7,8 @@ const sendMail = async (req, res) => {
 
 	let transporter = nodemailer.createTransport({
 		service: process.env.SMTP_SERVICE,
-		host: process.env.HOST,
-		port: process.env.PORT,
+		host: process.env.SMTP_HOST,
+		port: process.env.SMTP_PORT,
 		auth: {
 			user: MAIL_USER,
 			pass: process.env.SMTP_AUTH_PASSWORD,
