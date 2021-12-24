@@ -21,7 +21,7 @@ app.get("/", (req, res) => {
 });
 
 app.listen(process.env.PORT || 2000, async () => {
-	consol.log({
+	console.log({
 		msg: "Server is running on port 2000",
 		smtp: {
 			service: process.env.SMTP_SERVICE,
