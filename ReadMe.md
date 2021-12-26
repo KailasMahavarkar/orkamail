@@ -9,7 +9,7 @@
 
 **Create a .env file with configurations**
 
-    // a shared secret orkamail server and backend
+    // a shared secret between orkamail server and backend
     MAIL_API_KEY=api_key
 	    
     // SMTP configurations
