@@ -77,4 +77,4 @@
 	    }
     }
     
-	Note: config params will bind to template with schema check and create a html body for email.
+	Working: config params will bind to template.(schema check will be performed on api request if bind parameter matches then a mail will be sent)
