@@ -3,16 +3,23 @@
 
 Orkamail is an mail sending API created using node/express-js
 
-	Template is an existing js code which returns html page once binded with configurations.
-	Config is an object which expects templete specific parameters (like "verify" template requires company & href)
+-------
+
+Template is an existing js code which returns html page once binded with configurations.
+
+Config is an object which expects templete specific parameters (like "verify" template requires company & href)
+
+
+
+-------
+
 
 
 
 **Working	(Sending mail using "verify" template**)
 
  1. verify template expects company_name and href to redirect.
- 2.  When you send a POST request a schema check will be carried out
- 3. if all expected variables match then a mail will be sent out using given SMTP configuration.
+ 2.  When you send a POST request a schema check will be carried out if all expected variables match then a mail will be sent out using given SMTP configuration.
 
 
 **Install dependencies with npm or yarn**
