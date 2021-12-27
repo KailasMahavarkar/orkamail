@@ -83,7 +83,7 @@ Config is an object which expects templete specific parameters (like "verify" te
 	POST REQUEST: /mail
 	
 	Headers: 
-	x-api-key: 		api_key (from .env file)
+	x-api-key: 	api_key (from .env file)
 	Content-Type: 	application/json
 
 	JSON Body:
